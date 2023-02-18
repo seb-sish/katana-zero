@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Fighting : MonoBehaviour
 {
+    private Animator Animator;
     public float attackSpeed;
     public int damage;
 
@@ -16,6 +17,7 @@ public class Fighting : MonoBehaviour
 
     private void Start()
     {
+        Animator = GetComponent<Animator>();
         attackDelay = new Timer(attackSpeed);
         attackDelay.Elapsed += onAttackDelay;
         attackDelay.Enabled = true;
@@ -30,6 +32,7 @@ public class Fighting : MonoBehaviour
         {
             if (Input.GetAxis("Fire1") != 0)
             {
+                Animator.SetTrigger("Attack");
                 if (isFacingRight)
                 {
                     Instantiate(hitbox, new Vector3(transform.position.x + 1.3f, transform.position.y + 1f, transform.position.z), Quaternion.identity);
