@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e7a326dc1527a4b43b29f18506f7281e
+guid: 38472abd4ee86184a84b016ca432c854
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,55 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u043C\u0435\u0447"
+      name: floor
       rect:
         serializedVersion: 2
-        x: 4
-        y: 19
-        width: 17
-        height: 40
-      alignment: 9
-      pivot: {x: 0.84287417, y: 0.07129438}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2d3fc705fbc3d24d9d263f0fa7ec721
-      internalID: 1877450866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u0445\u0432\u043E\u0441\u0442"
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 41
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 302851cc9b83c194b8a15410b6dc2d23
-      internalID: 952315714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u0433\u043E\u043B\u043E\u0432\u0430"
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 34
-        width: 14
-        height: 13
+        x: 0
+        y: 0
+        width: 1920
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c76954a9e6d57bd4c998e9c9c9dd1c96
-      internalID: 1082636658
+      spriteID: 10f1f103a856ccb4eb1a6b435dd1677c
+      internalID: 288315252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u0442\u0435\u043B\u043E"
+      name: background
       rect:
         serializedVersion: 2
-        x: 21
-        y: 17
-        width: 24
-        height: 17
+        x: 0
+        y: 112
+        width: 1920
+        height: 968
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,50 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b789ebcfd9357458322e1e8009ba74
-      internalID: 1403450159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u043F\u0440\u0430\u0432\u0430\u044F_\u043D\u043E\u0433\u0430"
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 1
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e21da39f22da8c48aa3d7bfe7368d4d
-      internalID: -1307814241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u043B\u0435\u0432\u0430\u044F_\u043D\u043E\u0433\u0430"
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 1
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8335692daaef9fb4abf5307c6de0ba25
-      internalID: 747154278
+      spriteID: c9a8e42277fdda94aa62a3877d13047b
+      internalID: 1975045158
       vertices: []
       indices: 
       edges: []
@@ -241,12 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\u0433\u043E\u043B\u043E\u0432\u0430": 1082636658
-      "\u043B\u0435\u0432\u0430\u044F_\u043D\u043E\u0433\u0430": 747154278
-      "\u043C\u0435\u0447": 1877450866
-      "\u043F\u0440\u0430\u0432\u0430\u044F_\u043D\u043E\u0433\u0430": -1307814241
-      "\u0442\u0435\u043B\u043E": 1403450159
-      "\u0445\u0432\u043E\u0441\u0442": 952315714
+      background: 1975045158
+      floor: 288315252
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

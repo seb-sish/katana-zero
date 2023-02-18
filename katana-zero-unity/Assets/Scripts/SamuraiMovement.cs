@@ -3,7 +3,6 @@
 public class SamuraiMovement : MonoBehaviour
 {
     private Animator Animator;
-    public float moveInput;
 
     public float moveSpeed = 3f;
     public float maxSpeed = 5f;
@@ -13,7 +12,7 @@ public class SamuraiMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     private bool IsFacingRight = true;
-    private Vector2 movement;
+    public Vector2 movement;
     private bool isGrounded;
 
     void Start()
@@ -24,8 +23,8 @@ public class SamuraiMovement : MonoBehaviour
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-
+        movement.x = Input.GetAxis("Horizontal");
+        Animator.SetFloat("Velocity", Mathf.Abs(movement.x));
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
