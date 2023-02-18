@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2552432369172442451}
   - component: {fileID: 8237171847118238185}
   - component: {fileID: 1514629910342727580}
+  - component: {fileID: 2498225885592683871}
   - component: {fileID: 2020237539712594631}
   m_Layer: 0
   m_Name: SamuraiPrefab
@@ -88,6 +89,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2498225885592683871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984511564434734805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cd4513e166e734a8dc87e9e26779ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSpeed: 1000
+  hitbox: {fileID: 0}
 --- !u!114 &2020237539712594631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,11 +115,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fffa89fc1ef7a7249b0428ca04a31ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveInput: 0
   moveSpeed: 2
   maxSpeed: 4
   jumpForce: 5
   friction: 0.25
+  movement: {x: 0, y: 0}
 --- !u!1 &2640688968223428749
 GameObject:
   m_ObjectHideFlags: 0

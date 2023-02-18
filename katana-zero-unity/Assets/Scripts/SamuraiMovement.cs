@@ -11,7 +11,7 @@ public class SamuraiMovement : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private bool IsFacingRight = true;
+    public bool IsFacingRight = true;
     public Vector2 movement;
     private bool isGrounded;
 
