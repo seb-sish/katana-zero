@@ -5,8 +5,8 @@ public class SamuraiMovement : MonoBehaviour
     private Animator Animator;
     public float moveInput;
 
-    public float moveSpeed = 2f;
-    public float maxSpeed = 4f;
+    public float moveSpeed = 3f;
+    public float maxSpeed = 5f;
     public float jumpForce = 5f;
     public float friction = 0.25f;
 

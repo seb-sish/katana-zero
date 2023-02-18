@@ -339,11 +339,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!4 &1836290956 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8423934699040963563, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
-  m_PrefabInstance: {fileID: 1848339018}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1848339018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -400,8 +395,20 @@ PrefabInstance:
       value: 6.11
       objectReference: {fileID: 0}
     - target: {fileID: 2020237539712594631, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
+      propertyPath: maxSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020237539712594631, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
       propertyPath: JumpForce
       value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020237539712594631, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
+      propertyPath: jumpForce
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020237539712594631, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
+      propertyPath: moveSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2020237539712594631, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
       propertyPath: cattoSpeed
@@ -410,7 +417,7 @@ PrefabInstance:
     - target: {fileID: 2020237539712594631, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
       propertyPath: groundCheck
       value: 
-      objectReference: {fileID: 1836290956}
+      objectReference: {fileID: 0}
     - target: {fileID: 2020237539712594631, guid: 3ba04bb17c9d2b248a7b9b00e52470ea, type: 3}
       propertyPath: ground.m_Bits
       value: 8
